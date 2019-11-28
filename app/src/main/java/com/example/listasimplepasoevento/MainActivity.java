@@ -74,11 +74,11 @@ public class MainActivity extends AppCompatActivity {
         listView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // Aquí pillamos el texto del item de la lista
+                //7.1) Aquí pillamos el texto del item de la lista
                 String item = ((TextView)view).getText().toString();
-                // Aquí pillamos el objeto de la lista global
+                //7.2) Aquí pillamos el objeto de la lista global
                 Evento eventoSeleccionado = MainActivity.this.listaEventos.get(position);
-                // Aquí lo mostramos en una etiqueta
+                //7.3) Aquí lo mostramos en una etiqueta
                 Toast.makeText(getBaseContext(), "Este es el titulo del item de la lista: "+ item
                         + " \nEsta es la posicion "+position
                         + " \ny este es el titulo del ojeto !!!!"+eventoSeleccionado.getTitulo() ,
