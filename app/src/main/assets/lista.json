@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "Cinema a la fresca",
+    "categoria": "Cine",
+    "descripcion": "Projeccion cinematografica de clasicos",
+    "dia": "2019-11-15",
+    "hora": "19:30",
+    "id": "1"
+  },
+  {
+    "titulo": "Teatro a la fresca",
+    "categoria": "Teatro",
+    "descripcion": "Funcion de teatro",
+    "dia": "2019-11-15",
+    "hora": "19:30",
+    "id": "2"
+  },
+  {
+    "titulo": "Mercado medieval",
+    "categoria": "Mercado",
+    "descripcion": "Productos de la tierra",
+    "dia": "2019-11-15",
+    "hora": "19:30",
+    "id": "3"
+  }
+]
