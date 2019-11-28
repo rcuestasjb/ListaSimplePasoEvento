@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 // serializarlo en json utilizando la biblioteca GSON ...
                 // y pasarlo al activity de visualización mediante el Inten.
                 // pero aqui ya hay buscarse la vida ....
-                // ten en cuenta todo lo anterioemente descrio ja esta echo en
+                // ten en cuenta que todo lo anterioemente descrio ja esta echo en
                 // en el ejemplo 2 https://github.com/rcuestasjb/PasoObjetos.git
 
             }
